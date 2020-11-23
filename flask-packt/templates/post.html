@@ -1,0 +1,27 @@
+
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        #commenting these lines to use render_template with post id 
+        else this will be static -->
+        
+        <!--<h1>Hey Everyone</h1> --> 
+        <!--<p>
+            This is my post.
+        </p> 
+        <h1>{{post['title']}}</h1>
+        <p>
+            {{post['content']}}
+        </p>
+    </body>
+</html> -->
+{% extends 'base.jinja2' %}
+{% block content %}
+<h1>{{post['title']}}</h1>
+<p>
+    {{post['content']}}
+</p>
+{% endblock %}
+<!---->

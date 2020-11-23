@@ -1,0 +1,16 @@
+<!--Before developing base.jinja file-->
+
+<!-- <!DOCTYPE html>
+<html>
+    <body>
+        <h1>Error 404</h1>
+        <p>{{message}}</p>
+    </body>
+</html> -->
+
+<!--After developing base.jinja file-->
+{% extends 'base.jinja2' %}
+{% block content %}
+<h1>Error 404</h1>
+<p>{{message}}</p>
+{% endblock  %}
